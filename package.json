@@ -61,7 +61,7 @@
     "cross-spawn": "^5.0.1",
     "css-loader": "^0.28.0",
     "do-nothing-loader": "^1.0.0",
-    "eslint": "^3.19.0",
+    "eslint": "^6.6.0",
     "eslint-plugin-vue": "^2.1.0",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
