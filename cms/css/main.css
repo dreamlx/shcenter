@@ -1,0 +1,122 @@
+.ivu-btn-primary,.ivu-checkbox-checked .ivu-checkbox-inner{
+	background-color: #FEA000;
+    border-color: #FEA000;
+}
+
+.ivu-btn-primary:hover{
+	background-color: #FEA000;
+    border-color: #FEA000;
+    opacity: .9
+}
+
+.ivu-form-btn-item .ivu-form-item-label{
+    visibility: hidden;
+ }
+
+.form-box .ivu-btn-primary {
+	background-color: #FEA000;
+	border-color: #FEA000;
+}
+
+.form-box .ivu-btn-primary:disabled {
+    color: #c5c8ce;
+    background-color: #f7f7f7;
+    border-color: #dcdee2;
+}
+
+.form-box .ivu-btn-success{
+	background-color:#f0ad4e;
+	border-color: #f0ad4e;
+}
+
+.ivu-table-cell .ivu-btn-primary{
+	background-color: #428bca;
+	border-color: #428bca;
+}
+
+.ivu-table-cell .ivu-btn-primary:disabled {
+    color: #c5c8ce;
+    background-color: #f7f7f7;
+    border-color: #dcdee2;
+}
+
+
+
+.ivu-tabs.ivu-tabs-card>.ivu-tabs-bar .ivu-tabs-tab-active {
+    border-color: #FEA000;
+    color: #FEA000;
+}
+
+.ivu-tabs-nav-container:focus .ivu-tabs-tab-focused{
+	border-color: #FEA000 !important;
+}
+.ivu-tabs-nav .ivu-tabs-tab:hover {
+    color: #FEA000;
+    opacity: .9
+}
+
+/*.ivu-tabs-bar {
+    border-bottom: 1px solid #FEA000;
+    margin-bottom: 16px;
+}*/
+
+
+.ivu-page-item-active {
+    background-color: #FEA000;
+    border-color: #FEA000;
+}
+
+.ivu-page-item:hover {
+    border-color: #FEA000;
+}
+
+
+.ivu-table-cell .ivu-btn-primary {
+    background-color: transparent;
+    border-color: transparent;
+    color: #FEA000;
+    border-color: #FEA000;
+}
+
+.ivu-input:hover {
+    border-color: #FEA000;
+}
+
+.ivu-select-selection:hover {
+    border-color: #FEA000;
+}
+
+.ivu-date-picker-focused input {
+    border-color: #FEA000;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(45,140,0,.1);
+}
+
+.ivu-select-visible .ivu-select-selection {
+    border-color: #FEA000;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(254, 160, 0, .1);
+}
+
+.ivu-input:focus {
+    border-color: #FEA000;
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(254,160,0,.1);
+}
+
+.ivu-upload-drag:hover {
+    border: 1px dashed #FEA000
+}
+
+.ivu-message-info .ivu-icon,.ivu-message-loading .ivu-icon {
+    color: #FEA000
+}
+.ivu-radio-checked .ivu-radio-inner {
+    border-color: #FEA000;
+}
+.ivu-radio-inner:after{
+    background-color: #FEA000;
+}
+.ivu-form-item-error-tip {
+    white-space: nowrap;
+}

@@ -1,0 +1,12 @@
+/**
+ * Created by 
+ */
+
+
+const INIT_SPORT_NEWS_LIST = 'INIT_SPORT_NEWS_LIST';
+const RESET_SPORT_NEWS_LIST = 'RESET_SPORT_NEWS_LIST';
+
+export default {
+    INIT_SPORT_NEWS_LIST,
+    RESET_SPORT_NEWS_LIST
+};

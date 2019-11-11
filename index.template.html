@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <title><%= htmlWebpackPlugin.options.entry_path === 'cms' ? '上海中心垂马网站后台管理系统' : '上海中心国际垂直马拉松赛官网' %></title>
+    <% if (htmlWebpackPlugin.options.entry_path === 'm') { %>
+      <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.7.4/skins/default/aliplayer-min.css" />  
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <% if (htmlWebpackPlugin.options.entry_path === 'web') { %>
+      <script type=text/javascript>! function(n) { var e = n.document, t = e.documentElement, i = 960, o = i / 30, a = "orientationchange" in n ? "orientationchange" : "resize", d = function() { var n = t.clientWidth || 320, n = n > 720 ? n : 320 > n ? 320 : n; t.style.fontSize = n / o + "px" }; e.addEventListener && n.addEventListener(a, d, !1), d() }(window);</script>
+    <% } %>
+  </body>
+</html>

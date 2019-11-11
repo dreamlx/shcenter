@@ -1,0 +1,9 @@
+
+
+const ACCOUNT_LOGIN = 'ACCOUNT_LOGIN';
+const ACCOUNT_LOGOUT = 'ACCOUNT_LOGOUT';
+
+export default {
+    ACCOUNT_LOGIN,
+    ACCOUNT_LOGOUT
+};

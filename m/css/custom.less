@@ -1,0 +1,39 @@
+
+
+@font-family  : "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+@body-background        : #fff;
+@font-size-base         : 14px;
+@font-size-small        : 12px;
+@font-size-large        : 16px;
+@line-height-base       : 1.5;
+@text-color             : #515a6e;
+
+body {
+    font-family: @font-family;
+    font-size: @font-size-small;
+    line-height: @line-height-base;
+    color: @text-color;
+    background-color: @body-background;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+    text-align: center
+}
+input {
+    -webkit-appearance: none;
+}
+@import "../../node_modules/iview/src/styles/common/iconfont/ionicons.less";
